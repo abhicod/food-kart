@@ -1,4 +1,4 @@
-const RestaurantCard = () => {
+const RestaurantCard = ({resData}) => {
   return (
     <div>
       <div className="card w-fit rounded-lg flex flex-col items-center gap-6 h-80 hover:scale-97 transition-transform duration-150">
@@ -8,10 +8,10 @@ const RestaurantCard = () => {
           alt=""
         />
         <div className="flex flex-col items-start gap-2">
-          <h2 className="font-bold text-xl">Restaurant Name</h2>
-          <h4 className="text-gray-500">Biryani, North Indian, Asian</h4>
-          <h4 className="font-semibold">Rating : 4.5/5</h4>
-          <h4 className=" text-gray-500">40 Minutes</h4>
+          <h2 className="font-bold text-xl">{resData[0].card.card.info.name}</h2>
+          <h4 className="text-gray-500">{resData[0].card.card.info.cuisines.join(', ')}</h4>
+          <h4 className="font-semibold"> Rating: {resData[0].card.card.info.avgRating}</h4>
+          <h4 className=" text-gray-500">{resData[0] .card.card.info.sla.deliveryTime} minutes</h4>
         </div>
       </div>
     </div>
