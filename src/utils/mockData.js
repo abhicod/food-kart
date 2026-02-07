@@ -1,4 +1,4 @@
-export const resList = [{
+export const ResList = [{
     "card": {
         "card": {
             "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
@@ -738,5 +738,621 @@ export const resList = [{
             "sectionId": "MENU_RETURN_FOOD"
         }
     }
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "88278",
+"name": "Mizan Laziz Biryani",
+"cloudinaryImageId": "siyfuscz1lq3nkipataf",
+"locality": "Azad Market",
+"areaName": "Karol Bagh",
+"costForTwo": "₹250 for two",
+"cuisines": [
+"Mughlai"
+],
+"avgRating": 4,
+"parentId": "497927",
+"avgRatingString": "4.0",
+"totalRatingsString": "2.5K+",
+"promoted": true,
+"adTrackingId": "cid=6ab4fecd-d2cf-4b40-b8a3-962d64437fd7~p=0~adgrpid=6ab4fecd-d2cf-4b40-b8a3-962d64437fd7#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=88278~plpr=COLLECTION~eid=1355dcb7-ad42-461d-ad71-0f9a2e2e9c6d~srvts=1770504183916~collid=83639",
+"sla": {
+"deliveryTime": 49,
+"lastMileTravel": 9.7,
+"serviceability": "SERVICEABLE",
+"slaString": "45-50 mins",
+"lastMileTravelString": "9.7 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-02-08 05:00:00",
+"opened": true
+},
+"badges": {},
+"isOpen": true,
+"aggregatedDiscountInfoV2": {},
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"textBased": {},
+"imageBased": {},
+"textExtendedBadges": {}
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+"campaignId": "6ab4fecd-d2cf-4b40-b8a3-962d64437fd7"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=88278&source=collection&query=Biryani",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "1032601",
+"name": "Delhi Zaika",
+"cloudinaryImageId": "155307fa15f1d8bc472350edd234fd64",
+"locality": "Mayur Vihar",
+"areaName": "Mayur Vihar",
+"costForTwo": "₹400 for two",
+"cuisines": [
+"Mughlai",
+"Snacks"
+],
+"avgRating": 3.1,
+"parentId": "314",
+"avgRatingString": "3.1",
+"totalRatingsString": "<3",
+"sla": {
+"deliveryTime": 35,
+"lastMileTravel": 3.5,
+"serviceability": "SERVICEABLE",
+"slaString": "30-35 mins",
+"lastMileTravelString": "3.5 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-02-08 23:30:00",
+"opened": true
+},
+"badges": {},
+"isOpen": true,
+"aggregatedDiscountInfoV2": {},
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {},
+"textExtendedBadges": {},
+"textBased": {}
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=1032601&source=collection&query=Biryani",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "995236",
+"name": "Biryani 24*7",
+"cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/29/3c0fd76e-e294-4a77-9107-7822c072aff4_464f85c0-3fe8-4df1-ad8e-b862b4f88352.jpg",
+"locality": "Dilshad Gardens",
+"areaName": "Dilshad Gardens",
+"costForTwo": "₹400 for two",
+"cuisines": [
+"Biryani",
+"Mughlai"
+],
+"avgRating": 3.9,
+"parentId": "580890",
+"avgRatingString": "3.9",
+"totalRatingsString": "6",
+"promoted": true,
+"adTrackingId": "cid=f7fd5d6a-cb06-4f44-9370-e968a8ebd396~p=1~adgrpid=f7fd5d6a-cb06-4f44-9370-e968a8ebd396#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=995236~plpr=COLLECTION~eid=3f27d621-562c-43b0-a8ad-4e5934d1dafc~srvts=1770504183916~collid=83639",
+"sla": {
+"deliveryTime": 55,
+"lastMileTravel": 9.1,
+"serviceability": "SERVICEABLE",
+"slaString": "50-60 mins",
+"lastMileTravelString": "9.1 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-02-08 05:29:00",
+"opened": true
+},
+"badges": {},
+"isOpen": true,
+"aggregatedDiscountInfoV2": {},
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"textBased": {},
+"imageBased": {},
+"textExtendedBadges": {}
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+"campaignId": "f7fd5d6a-cb06-4f44-9370-e968a8ebd396"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=995236&source=collection&query=Biryani",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "58216",
+"name": "Biryani Mahal",
+"cloudinaryImageId": "df90812f3a4d443f27d49def4dc2150d",
+"areaName": "Sector 6",
+"costForTwo": "₹500 for two",
+"cuisines": [
+"Biryani",
+"Mughlai",
+"Chinese",
+"North Indian"
+],
+"avgRating": 4.3,
+"parentId": "9902",
+"avgRatingString": "4.3",
+"totalRatingsString": "25K+",
+"sla": {
+"deliveryTime": 24,
+"lastMileTravel": 6.5,
+"serviceability": "SERVICEABLE",
+"slaString": "20-25 mins",
+"lastMileTravelString": "6.5 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-02-08 05:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "Ratnesh_Badges/Rx_Awards_2025/Bolt.png",
+"description": "Delivery!"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"textExtendedBadges": {},
+"textBased": {},
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"imageId": "Ratnesh_Badges/Rx_Awards_2025/Bolt.png",
+"description": "Delivery!"
+}
+}
+]
+}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "60% OFF",
+"subHeader": "UPTO ₹120",
+"logoCtx": {
+"text": "BENEFITS"
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=58216&source=collection&query=Biryani",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "1157755",
+"name": "Kaka's Foods",
+"cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2026/1/10/9b4d14f5-6e76-4b4d-8cd7-c59760941469_43224ab4-bae6-46e3-a026-0da95c8c7f9f.jpg",
+"locality": "Dilshad Gardens",
+"areaName": "Dilshad Gardens",
+"costForTwo": "₹200 for two",
+"cuisines": [
+"North Indian",
+"Biryani",
+"Rolls & Wraps",
+"Goan"
+],
+"avgRating": 4.2,
+"parentId": "664046",
+"avgRatingString": "4.2",
+"totalRatingsString": "90",
+"promoted": true,
+"adTrackingId": "cid=806631d9-9548-4845-9fde-9b1368481b7b~p=2~adgrpid=806631d9-9548-4845-9fde-9b1368481b7b#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=1157755~plpr=COLLECTION~eid=93c0960c-9194-4518-828e-84db70cd9ef7~srvts=1770504183916~collid=83639",
+"sla": {
+"deliveryTime": 67,
+"lastMileTravel": 8.6,
+"serviceability": "SERVICEABLE",
+"slaString": "65-75 mins",
+"lastMileTravelString": "8.6 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-02-08 05:29:00",
+"opened": true
+},
+"badges": {},
+"isOpen": true,
+"aggregatedDiscountInfoV2": {},
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"textBased": {},
+"imageBased": {},
+"textExtendedBadges": {}
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+"campaignId": "806631d9-9548-4845-9fde-9b1368481b7b"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=1157755&source=collection&query=Biryani",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "37461",
+"name": "Qasmi Biryani Centre",
+"cloudinaryImageId": "c3fufp78dd0ksxbdteho",
+"locality": "Zakir Nagar",
+"areaName": "Zakir Nagar",
+"costForTwo": "₹200 for two",
+"cuisines": [
+"Biryani",
+"Mughlai",
+"Indian",
+"Arabian",
+"Italian"
+],
+"avgRating": 3.9,
+"parentId": "14107",
+"avgRatingString": "3.9",
+"totalRatingsString": "12K+",
+"sla": {
+"deliveryTime": 42,
+"lastMileTravel": 10.5,
+"serviceability": "SERVICEABLE",
+"slaString": "40-45 mins",
+"lastMileTravelString": "10.5 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-02-08 05:00:00",
+"opened": true
+},
+"badges": {},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"textBased": {},
+"imageBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "₹75 OFF",
+"subHeader": "ABOVE ₹299",
+"discountTag": "FLAT DEAL",
+"logoCtx": {
+"text": "BENEFITS"
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "3.8",
+"ratingCount": "381"
+},
+"source": "GOOGLE",
+"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=37461&source=collection&query=Biryani",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "996963",
+"name": "Nashtta",
+"cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/24/e4e0ea48-380d-4012-9a0a-a244d6cfeb37_32f82741-a20e-4f16-8fb2-518c69f78a0c.jpg_compressed",
+"locality": "Vishwakarma Park",
+"areaName": "Laxmi Nagar",
+"costForTwo": "₹199 for two",
+"cuisines": [
+"Biryani",
+"Mughlai"
+],
+"avgRating": 5,
+"parentId": "581116",
+"avgRatingString": "5.0",
+"totalRatingsString": "<3",
+"promoted": true,
+"adTrackingId": "cid=0b2f6224-cc36-4ed6-a50c-7df8e20aa749~p=3~adgrpid=0b2f6224-cc36-4ed6-a50c-7df8e20aa749#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=996963~plpr=COLLECTION~eid=1b6b967b-8ada-43fd-8ceb-e2aa508c3982~srvts=1770504183916~collid=83639",
+"sla": {
+"deliveryTime": 34,
+"lastMileTravel": 2.2,
+"serviceability": "SERVICEABLE",
+"slaString": "30-35 mins",
+"lastMileTravelString": "2.2 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-02-08 23:00:00",
+"opened": true
+},
+"badges": {},
+"isOpen": true,
+"aggregatedDiscountInfoV2": {},
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"textExtendedBadges": {},
+"textBased": {},
+"imageBased": {}
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+"campaignId": "0b2f6224-cc36-4ed6-a50c-7df8e20aa749"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=996963&source=collection&query=Biryani",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
 }
 ];

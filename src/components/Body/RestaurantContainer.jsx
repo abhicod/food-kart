@@ -1,11 +1,12 @@
 import RestaurantCard from './RestaurantCard';
-import {resList} from '../../utils/mockData.js';
 
-const RestaurantContainer = () => {
+
+const RestaurantContainer = ({TopRes}) => {
   return (
-    <div className='flex justify-left items-start flex-wrap gap-16 pt-15 pl-25 w-full'>
-      <RestaurantCard resData={resList}/>
-      
+    <div className='flex justify-left items-start flex-wrap gap-10 pt-15 pl-25 w-full'>
+      {TopRes.map((res) => (
+        <RestaurantCard key={res.card.card.info.id} resData={res}/>
+      ))}
       
     </div>
   )
