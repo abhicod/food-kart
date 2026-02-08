@@ -4,12 +4,27 @@ import ProductsContainer from "./ProductsContainer"
 import RestaurantContainer from "./RestaurantContainer"
 import SearchBar from "./SearchBar"
 import {ResList} from '../../utils/mockData.js';
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
 
 
 const Body = () => {
 
-  const [TopRes, setTopRes ] = useState(ResList);
+  const [TopRes, setTopRes ] = useState([]);
+
+  useEffect(() =>{
+    fetchData();
+  }, []);
+
+  const fetchData = async () =>{
+    const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6275609&lng=77.2784081&collection=83639&tags=layout_CCS_Biryani&sortBy=&filters=&type=rcv2&offset=0&page_type=null");
+
+    const json = await data.json();
+    setTopRes(json?.data?.cards);
+  }
+
+  
+
 
   return (
     <div>
