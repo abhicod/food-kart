@@ -9,8 +9,8 @@
     - Hero content
  * Search Bar
  * Food Categories 
-   - Routing to each page
-   - On each page top rated restaurant filter button
+   - Routing to each page - 
+   - On each page top rated restaurant filter button and a search bar
  * Top Restaurants -- (for now here - the filter button)
  * Top Food items
  * Footer

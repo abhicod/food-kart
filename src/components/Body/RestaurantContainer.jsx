@@ -1,21 +1,27 @@
 import RestaurantCard from './RestaurantCard';
 import Shimmer from './Shimmer';
+import { HomeRestaurantList } from "../../utils/mockData.js";
 
 
-const RestaurantContainer = ({TopRes}) => {
 
-  if(TopRes.length === 0) {
-    return <Shimmer />
-  }
+const RestaurantContainer = ({ topRes, filteredRes, restaurantData }) => {
 
-  return (
+  // if(TopRes.length === 0) {
+  //   return <Shimmer /> - used ternary operator instead of if else statement
+  // }
+
+  // console.log(HomeRestaurantList);
+  // topRes.length === 0 ? <Shimmer /> :
+
+  return  (
     <div className='flex justify-left items-start flex-wrap gap-10 pt-15 pl-25 w-full'>
-      {TopRes.slice(3).map((res) => (
-        <RestaurantCard key={res?.card?.card?.info?.id} resData={res}/>
+      <></>
+      {HomeRestaurantList.map((res) => (
+        <RestaurantCard key={res.id} resData={{...res}}/>
       ))}
-      
+
     </div>
   )
 }
 
-export default RestaurantContainer
+export default RestaurantContainer;
