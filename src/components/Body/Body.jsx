@@ -1,5 +1,3 @@
-
-import Footer from "../Footer/Footer";
 import HeroContent from "./HeroContent";
 import HeroImage from "./HeroImage";
 import ProductsContainer from "./ProductsContainer";
@@ -57,16 +55,7 @@ const Body = () => {
         <h1 className="text-3xl font-bold text-center mt-10">
           Explore our top restaurants
         </h1>
-        <button
-          className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg mx-auto block my-5 cursor-pointer"
-          onClick={() => {
-            setTopRes(
-              topRes.filter((res) => res.card.card.info.avgRating > 4.2),
-            );
-          }}
-        >
-          Top rated restaurants
-        </button>
+        
         <RestaurantContainer topRes={topRes} filteredRes={filteredRes} />
         
       </div>

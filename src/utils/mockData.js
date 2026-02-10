@@ -1418,7 +1418,7 @@ export const HomeRestaurantList = [
     cuisines: ["Italian", "Pasta", "Continental"],
     avgRating: 4.1,
     deliveryTime: 32,
-  },
+  }
 ];
 
 export const AkshayData = [

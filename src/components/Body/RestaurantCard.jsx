@@ -1,11 +1,10 @@
 import { RES_IMG } from "../../utils/constants";
 
 
-const RestaurantCard = (props) => {
+const RestaurantCard = ({resData}) => {
 
-  const { name, cuisines, avgRating,cloudinaryImageId, costForTwo, deliveryTime} = props.resData;
+  const { name, cuisines, avgRating,cloudinaryImageId, costForTwo, deliveryTime} = resData;
 
-console.log(props);
   return (
 
     <div>
@@ -19,7 +18,7 @@ console.log(props);
           <h2 className="font-bold text-lg">{name}</h2>
           <h4 className="text-gray-500">{cuisines.join(", ")}</h4>
           <h4 className="font-semibold"> Rating: {avgRating}</h4>
-          <h4 className=" text-gray-500">{deliveryTime} minutes</h4>
+          <h4 className=" text-gray-500">Delivery in: {deliveryTime} minutes</h4>
           <h4 className=" text-gray-500">{costForTwo}</h4>
         </div>
       </div>
