@@ -1,0 +1,69 @@
+{
+  "data": {
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "info": {
+              "id": "1171351",
+              "name": "Royal Biryani House",
+              "areaName": "Laxmi Nagar",
+              "city": "Delhi",
+              "avgRating": 4.3,
+              "totalRatingsString": "5K+ ratings",
+              "costForTwoMessage": "₹400 for two"
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "1",
+                              "name": "Chicken Dum Biryani",
+                              "price": 24900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "2",
+                              "name": "Paneer Butter Masala",
+                              "price": 21900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

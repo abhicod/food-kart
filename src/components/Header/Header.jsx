@@ -5,7 +5,7 @@ import HeaderNav from './HeaderNav';
 const Header = () => {
   return (
     <div>
-      <div className='header flex justify-between px-6 py-3 items-center bg-white shadow-lg shadow-green-300/40'>
+      <div className='header flex justify-between px-6 py-3 items-center bg-gray-100 shadow-lg shadow-black-300/50'>
         <HeaderLogo />
         <HeaderNav />
       </div>

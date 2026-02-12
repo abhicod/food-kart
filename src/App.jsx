@@ -12,6 +12,7 @@ import Cart from "./components/Body/Cart";
 import Contact from "./components/Body/Contact";
 import Error from "./components/Body/Error";
 import AppLayout from "./AppLayout";
+import RestaurantData from "./components/Restaurants/RestaurantData";
 
 const App = () => {
   return (
@@ -31,7 +32,7 @@ const App = () => {
           <Route path="/pastry" element={<Pastry />} />
           <Route path="/pizza" element={<Pizza />} />
           <Route path="/sandwich" element={<Sandwich />} />
-
+          <Route path="/biryani/:resId" element={<RestaurantData />} />
         
          </Route>
          </Routes>
