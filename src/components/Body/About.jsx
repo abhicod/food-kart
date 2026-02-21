@@ -3,7 +3,7 @@ import UserInfo from './UserInfo'
 
 const About = () => {
   return (
-    <div>
+    <div className='pt-30'>
       <h1>hello this is about page</h1>
       <UserInfo name={"abbu pandit"}/>
     </div>

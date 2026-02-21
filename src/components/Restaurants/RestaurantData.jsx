@@ -43,7 +43,7 @@ const RestaurantData = () => {
   
 
   return (
-    <div className="p-6">
+    <div className="p-6 pt-25">
       <div className="flex gap-5 flex-col justify-center items-center p-5 font-medium text-xl">
         <h1 className="text-4xl font-bold">{restaurant?.name}</h1>
         <p>

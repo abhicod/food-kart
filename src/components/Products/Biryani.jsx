@@ -13,7 +13,7 @@ const Biryani = () => {
 
   return (
     <div>
-      <div className=" flex justify-center items-center pt-10 pb-2 text-4xl font-bold bg-linear-to-r from-red-500 to-blue-900 bg-clip-text text-transparent ">
+      <div className=" flex justify-center items-center pt-30 pb-2 text-4xl font-bold bg-linear-to-r from-red-500 to-blue-900 bg-clip-text text-transparent ">
         <h1>Biryani</h1>
       </div>
       <SearchBar placeholder="Search our top restaurants for Biryani" />

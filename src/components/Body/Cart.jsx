@@ -23,7 +23,7 @@ const Cart = () => {
    
     
       <div>
-          <h1 className='text-3xl font-bold text-center mt-10'>Your Cart</h1>
+          <h1 className='text-3xl font-bold text-center mt-10 pt-20'>Your Cart</h1>
         
         {cartItems.length === 0 ? (
           <div className='h-125 py-15 '>

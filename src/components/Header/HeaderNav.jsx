@@ -7,7 +7,7 @@ const HeaderNav = () => {
   const [isLoggedIn, setIsLoggedIn] = useState("Login");
 
   const cartItems = useSelector((store) => store.cart.items);
-  console.log(cartItems);
+  // console.log(cartItems);
 
   return (
     <div>

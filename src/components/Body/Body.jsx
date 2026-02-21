@@ -13,10 +13,10 @@ const Body = () => {
 
 
 
-  useEffect(() => {
-    // fetchData();
-    // fetchRestaurants();
-  }, []);
+  // useEffect(() => {
+  //  fetchData();
+  //  fetchRestaurants();
+  // }, []);
 
   // const fetchRestaurants = async () => {
   //   const response = await fetch(
@@ -26,21 +26,21 @@ const Body = () => {
   //   console.log(resjson);
   // };
 
-  const fetchData = async () => {
-    const data = await fetch(
-      "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6275609&lng=77.2784081&collection=83639&tags=layout_CCS_Biryani&sortBy=&filters=&type=rcv2&offset=0&page_type=null",
-    );
+  // const fetchData = async () => {
+  //   const data = await fetch(
+  //     "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6275609&lng=77.2784081&collection=83639&tags=layout_CCS_Biryani&sortBy=&filters=&type=rcv2&offset=0&page_type=null",
+  //   );
 
-    const json = await data.json();
-    setTopRes(json?.data?.cards);
-    setFilteredRes(json?.data?.cards);
-  };
+  //   const json = await data.json();
+  //   setTopRes(json?.data?.cards);
+  //   setFilteredRes(json?.data?.cards);
+  // };
 
 
   return (
     <div>
       <div>
-        <div className="hero flex items-center justify-between p-20 gap-10  ">
+        <div className="hero flex items-center justify-between p-20 gap-10 pt-48 ">
           <HeroImage />
           <HeroContent />
         </div>

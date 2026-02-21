@@ -1,0 +1,104 @@
+{
+    "data" : {
+        "cards": [
+  {
+    id: "123456",
+    name: "Domino's Pizza",
+    cloudinaryImageId:
+      "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/6def0f0f-9e6c-45c0-b5e6-05af750f27b5_795906.JPG",
+    costForTwo: "₹400 for two",
+    cuisines: ["Pizza", "Italian", "Fast Food"],
+    avgRating: 4.3,
+    deliveryTime: 30,
+    promoted: true,
+  },
+  {
+    id: "234567",
+    name: "Burger Hub",
+    cloudinaryImageId:
+      "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/acfcaacc-edf0-4189-8264-d614d312c0ee_740457.JPG",
+    costForTwo: "₹300 for two",
+    cuisines: ["Burgers", "American", "Fast Food"],
+    avgRating: 4.5,
+    deliveryTime: 25,
+    promoted: false,
+  },
+  {
+    id: "345678",
+    name: "Green Bites",
+    cloudinaryImageId: "e0839ff574213e6f35b3899ebf1fc597",
+    costForTwo: "₹250 for two",
+    cuisines: ["Healthy Food", "Salads", "Vegan"],
+    avgRating: 4.7,
+    deliveryTime: 20,
+    promoted: false,  
+  },
+  {
+    id: "456789",
+    name: "Spice Kingdom",
+    cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/1/371c1fb5-65a3-4fb7-89eb-f824d2391445_486702.jpg",
+    costForTwo: "₹500 for two",
+    cuisines: ["Indian", "North Indian", "Biryani"],
+    avgRating: 4.2,
+    deliveryTime: 35,
+    promoted: true,
+  },
+  {
+    id: "567890",
+    name: "Burger King",
+    cloudinaryImageId:
+      "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/ba9f1f59-30d5-44de-afad-df6db8471ead_9648.jpg",
+    costForTwo: "₹350 for two",
+    cuisines: ["Chinese", "Asian", "Thai"],
+    avgRating: 4.4,
+    deliveryTime: 28,
+    promoted: false,
+  },
+  {
+    id: "678901",
+    name: "Dessert Delight",
+    cloudinaryImageId:
+      "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/8/731001f1-f1c4-4f5f-849f-79a697cb0b72_390173.jpg",
+    costForTwo: "₹200 for two",
+    cuisines: ["Desserts", "Ice Cream", "Bakery"],
+    avgRating: 4.6,
+    deliveryTime: 22,
+    promoted: true,
+  },
+  {
+    id: "789012",
+    name: "Sushi Station",
+    cloudinaryImageId:
+      "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/acfcaacc-edf0-4189-8264-d614d312c0ee_740457.JPG",
+    costForTwo: "₹800 for two",
+    cuisines: ["Japanese", "Sushi", "Asian"],
+    avgRating: 4.8,
+    deliveryTime: 40,
+    promoted: false,
+  },
+  {
+    id: "890123",
+    name: "South Spice",
+    cloudinaryImageId:
+      "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/6def0f0f-9e6c-45c0-b5e6-05af750f27b5_795906.JPG",
+    costForTwo: "₹300 for two",
+    cuisines: ["South Indian", "Dosa", "Idli"],
+    avgRating: 4.5,
+    deliveryTime: 25,
+    promoted: false,
+  },
+  {
+    id: "901234",
+    name: "KFC",
+    cloudinaryImageId:
+      "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/17/7bd350a8-55e7-459b-83a2-e250e670d194_14558.JPG",
+    locality: "Koramangala",
+    costForTwo: "₹450 for two",
+    cuisines: ["Italian", "Pasta", "Continental"],
+    avgRating: 4.1,
+    deliveryTime: 32,
+    promoted: true,
+  }
+];
+    }
+}
