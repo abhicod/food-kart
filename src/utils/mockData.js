@@ -1339,6 +1339,7 @@ export const HomeRestaurantList = [
     cuisines: ["Pizza", "Italian", "Fast Food"],
     avgRating: 4.3,
     deliveryTime: 30,
+    promoted: true,
   },
   {
     id: "234567",
@@ -1349,6 +1350,7 @@ export const HomeRestaurantList = [
     cuisines: ["Burgers", "American", "Fast Food"],
     avgRating: 4.5,
     deliveryTime: 25,
+    promoted: false,
   },
   {
     id: "345678",
@@ -1358,6 +1360,7 @@ export const HomeRestaurantList = [
     cuisines: ["Healthy Food", "Salads", "Vegan"],
     avgRating: 4.7,
     deliveryTime: 20,
+    promoted: false,  
   },
   {
     id: "456789",
@@ -1367,6 +1370,7 @@ export const HomeRestaurantList = [
     cuisines: ["Indian", "North Indian", "Biryani"],
     avgRating: 4.2,
     deliveryTime: 35,
+    promoted: true,
   },
   {
     id: "567890",
@@ -1377,6 +1381,7 @@ export const HomeRestaurantList = [
     cuisines: ["Chinese", "Asian", "Thai"],
     avgRating: 4.4,
     deliveryTime: 28,
+    promoted: false,
   },
   {
     id: "678901",
@@ -1387,6 +1392,7 @@ export const HomeRestaurantList = [
     cuisines: ["Desserts", "Ice Cream", "Bakery"],
     avgRating: 4.6,
     deliveryTime: 22,
+    promoted: true,
   },
   {
     id: "789012",
@@ -1397,6 +1403,7 @@ export const HomeRestaurantList = [
     cuisines: ["Japanese", "Sushi", "Asian"],
     avgRating: 4.8,
     deliveryTime: 40,
+    promoted: false,
   },
   {
     id: "890123",
@@ -1407,6 +1414,7 @@ export const HomeRestaurantList = [
     cuisines: ["South Indian", "Dosa", "Idli"],
     avgRating: 4.5,
     deliveryTime: 25,
+    promoted: false,
   },
   {
     id: "901234",
@@ -1418,6 +1426,7 @@ export const HomeRestaurantList = [
     cuisines: ["Italian", "Pasta", "Continental"],
     avgRating: 4.1,
     deliveryTime: 32,
+    promoted: true,
   }
 ];
 

@@ -54,6 +54,288 @@
                               }
                             }
                           }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "3",
+                              "name": "Veg Biryani",
+                              "price": 19900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "4",
+                              "name": "Chicken Dum Biryani",
+                              "price": 24900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "5",
+                              "name": "Paneer Butter Masala",
+                              "price": 21900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Mini Bowls",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "1",
+                              "name": "Chicken Dum Biryani",
+                              "price": 24900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "2",
+                              "name": "Paneer Butter Masala",
+                              "price": 21900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "3",
+                              "name": "Veg Biryani",
+                              "price": 19900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "4",
+                              "name": "Chicken Dum Biryani",
+                              "price": 24900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "5",
+                              "name": "Paneer Butter Masala",
+                              "price": 21900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Chicken and Egg Bowl",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "1",
+                              "name": "Chicken Dum Biryani",
+                              "price": 24900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "2",
+                              "name": "Paneer Butter Masala",
+                              "price": 21900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "3",
+                              "name": "Veg Biryani",
+                              "price": 19900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "4",
+                              "name": "Chicken Dum Biryani",
+                              "price": 24900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "5",
+                              "name": "Paneer Butter Masala",
+                              "price": 21900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Biryani Bowl",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "info": {
+                              "id": "1",
+                              "name": "Chicken Dum Biryani",
+                              "price": 24900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "2",
+                              "name": "Paneer Butter Masala",
+                              "price": 21900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "3",
+                              "name": "Veg Biryani",
+                              "price": 19900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "4",
+                              "name": "Chicken Dum Biryani",
+                              "price": 24900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "card": {
+                            "info": {
+                              "id": "5",
+                              "name": "Paneer Butter Masala",
+                              "price": 21900,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2"
+                                }
+                              }
+                            }
+                          }
                         }
                       ]
                     }

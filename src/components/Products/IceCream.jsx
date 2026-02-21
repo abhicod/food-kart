@@ -1,23 +1,12 @@
-import React from 'react'
+
 import SearchBar from '../Body/SearchBar'
-import { useEffect, useState } from "react";
+
 import ProductsResContainer from './ProductsResContainer';
+import useFetchApiData from '../../utils/useFetchApiData';
 
 const IceCream = () => {
-  const [topRes, setTopRes] = useState([]);
   
-    useEffect(() => {
-      fetchData();
-    }, []);
-  
-    const fetchData = async () => {
-      const data = await fetch(
-        "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6275609&lng=77.2784081&collection=83640&tags=layout_CCS_IceCreams&sortBy=&filters=&type=rcv2&offset=0&page_type=null",
-      );
-  
-      const json = await data.json();
-      setTopRes(json?.data?.cards);
-    };
+  const {topRes} = useFetchApiData("https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6275609&lng=77.2784081&collection=83640&tags=layout_CCS_IceCreams&sortBy=&filters=&type=rcv2&offset=0&page_type=null");
 
   return (
     <div>

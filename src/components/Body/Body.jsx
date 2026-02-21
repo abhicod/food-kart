@@ -4,11 +4,14 @@ import ProductsContainer from "./ProductsContainer";
 import RestaurantContainer from "./RestaurantContainer";
 import SearchBar from "./SearchBar";
 
+
 import { useEffect, useState } from "react";
 
 const Body = () => {
   const [topRes, setTopRes] = useState([]);
   const [filteredRes, setFilteredRes] = useState([]);
+
+
 
   useEffect(() => {
     // fetchData();
@@ -32,6 +35,7 @@ const Body = () => {
     setTopRes(json?.data?.cards);
     setFilteredRes(json?.data?.cards);
   };
+
 
   return (
     <div>

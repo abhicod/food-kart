@@ -1,22 +1,15 @@
-import { useEffect, useState } from "react";
 import SearchBar from "../Body/SearchBar";
 import ProductsResContainer from "./ProductsResContainer";
+import { useParams } from "react-router-dom";
+import useFetchApiData from "../../utils/useFetchApiData";
+
 
 const Biryani = () => {
-  const [topRes, setTopRes] = useState([]);
+  
 
-  useEffect(() => {
-    fetchData();
-  }, []);
-
-  const fetchData = async () => {
-    const data = await fetch(
-      "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6275609&lng=77.2784081&collection=83639&tags=layout_CCS_Biryani&sortBy=&filters=&type=rcv2&offset=0&page_type=null",
-    );
-
-    const json = await data.json();
-    setTopRes(json?.data?.cards);
-  };
+      // const {resId} = useParams();
+      // console.log(resId);
+      const {topRes, setTopRes} = useFetchApiData("https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6275609&lng=77.2784081&collection=83639&tags=layout_CCS_Biryani&sortBy=&filters=&type=rcv2&offset=0&page_type=null");
 
   return (
     <div>
@@ -37,6 +30,7 @@ const Biryani = () => {
         >
           Top rated restaurants
         </button>
+          
       <ProductsResContainer resData={topRes} />
     </div>
   );

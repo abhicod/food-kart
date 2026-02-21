@@ -32,7 +32,7 @@ const App = () => {
           <Route path="/pastry" element={<Pastry />} />
           <Route path="/pizza" element={<Pizza />} />
           <Route path="/sandwich" element={<Sandwich />} />
-          <Route path="/biryani/:resId" element={<RestaurantData />} />
+          <Route path="/restaurant/:resId" element={<RestaurantData />} />
         
          </Route>
          </Routes>
@@ -43,32 +43,3 @@ const App = () => {
 
 export default App;
 
-
-// import { Routes, Route } from "react-router-dom";
-// import Body from "./components/Body/Body";
-// import About from "./components/Body/About";
-// import Cart from "./components/Body/Cart";
-// import Contact from "./components/Body/Contact";
-// import Error from "./components/Body/Error";
-// import AppLayout from "./AppLayout";
-
-// const App = () => {
-//   return (
-//     <div className="bg-gray-100 h-full">
-//       <Routes>
-//         {/* Layout Route */}
-//         <Route path="/" element={<AppLayout />}>
-//           <Route index element={<Body />} />
-//           <Route path="about" element={<About />} />
-//           <Route path="cart" element={<Cart />} />
-//           <Route path="contact" element={<Contact />} />
-//         </Route>
-
-//         {/* 404 */}
-//         <Route path="*" element={<Error />} />
-//       </Routes>
-//     </div>
-//   );
-// };
-
-// export default App;

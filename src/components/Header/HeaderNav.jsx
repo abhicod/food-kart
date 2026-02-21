@@ -1,9 +1,13 @@
 import { ShoppingCart } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const HeaderNav = () => {
   const [isLoggedIn, setIsLoggedIn] = useState("Login");
+
+  const cartItems = useSelector((store) => store.cart.items);
+  console.log(cartItems);
 
   return (
     <div>
@@ -21,8 +25,11 @@ const HeaderNav = () => {
               Contact
             </Link></li>
           <li className="cursor-pointer hover:text-green-600">
-            <Link to='/cart' className='block w-full h-full'>
-            <ShoppingCart size={35} />
+            <Link to='/cart' className=' w-full h-full flex justify-center items-center gap-1 text-2xl'>
+            <div className=" text-gray-00 hover:text-black relative">
+            <ShoppingCart size={35}  />
+            <p className="absolute text-sm top-0 right-0  bg-amber-400 rounded-full px-1">{cartItems.length}</p>
+            </div>
             </Link>
             
           </li>
